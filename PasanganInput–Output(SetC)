@@ -1,0 +1,24 @@
+#include <iostream>
+using namespace std;
+
+// Fungsi untuk soal 3: deret Fibonacci
+int f(int n) {
+    if (n == 1 || n == 2) return 1;
+    int a = 1, b = 1, c;
+    for (int i = 3; i <= n; i++) {
+        c = a + b;
+        a = b;
+        b = c;
+    }
+    return b;
+}
+
+int main() {
+    int n;
+    cout << "Masukkan nilai n: ";
+    cin >> n;
+
+    cout << "Hasil y = " << f(n) << endl;
+
+    return 0;
+}
