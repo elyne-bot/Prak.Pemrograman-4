@@ -2,7 +2,7 @@
 using namespace std;
 
 // Fungsi untuk soal 1: y = x^2 + 1
-int f1(int x) {
+int f(int x) {
     return x*x + 1;
 }
 
