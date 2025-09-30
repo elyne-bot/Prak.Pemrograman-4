@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+
+// Fungsi untuk soal 1: y = x^2 + 1
+int f1(int x) {
+    return x*x + 1;
+}
+
+int main() {
+    int x;
+    cout << "Masukkan nilai x: ";
+    cin >> x;
+
+    cout << "Hasil y = " << f1(x) << endl;
+
+    return 0;
+}
